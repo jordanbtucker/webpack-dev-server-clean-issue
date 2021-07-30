@@ -1,0 +1,13 @@
+{
+  "name": "webpack-dev-server-clean-issue",
+  "private": true,
+  "scripts": {
+    "build": "echo 'delete me' > dist/delete-me && webpack",
+    "serve": "echo 'delete me' > dist/delete-me && webpack serve"
+  },
+  "devDependencies": {
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.0.0-rc.0"
+  }
+}
