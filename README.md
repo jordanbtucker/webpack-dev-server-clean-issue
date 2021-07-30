@@ -1,6 +1,7 @@
 # webpack-dev-server-clean-issue
 
-This package demonstrates an issue in
+This package demonstrates an
+[issue](https://github.com/webpack/webpack-dev-server/issues/3578) in
 [`webpack-dev-server@4.0.0-rc.0`](https://github.com/webpack/webpack-dev-server/releases/tag/v4.0.0-rc.0)
 where it does not honor webpack's
 [`output.clean`](https://webpack.js.org/configuration/output/#outputclean)
